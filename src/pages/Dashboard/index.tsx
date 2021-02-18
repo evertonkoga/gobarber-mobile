@@ -12,7 +12,7 @@ import {
   UserName,
   ProfileButton,
   UserAvatar,
-  ProviderLis,
+  ProviderList,
   ProvidersListTitle,
   ProviderContainer,
   ProviderAvatar,
@@ -61,7 +61,7 @@ const Dashboard: React.FC = () => {
         </ProfileButton>
       </Header>
 
-      <ProviderLis
+      <ProviderList
         data={providers}
         keyExtractor={(provider) => provider.id}
         ListHeaderComponent={
