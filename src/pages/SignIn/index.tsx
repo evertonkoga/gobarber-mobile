@@ -92,7 +92,7 @@ const SignIn: React.FC = () => {
           contentContainerStyle={{ flex: 1 }}
         >
           <Container>
-            <Image source={logoImg} />
+            <Image testID="logo-image" source={logoImg} />
 
             <View>
               <Title>Faça seu logon</Title>
